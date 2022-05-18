@@ -1,0 +1,63 @@
+html,
+body {
+    margin-bottom: 10%;
+    padding:0;
+    min-height:100vh;
+    height: 100vh;
+
+}
+th {
+    text-align: center;
+    text-decoration: underline;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.op {
+    padding: 8px;
+    height: 90px; /* 50 */
+    width: 25%;
+    text-align: center;
+}
+.logoedi{
+
+   width: 10%;
+   height: 10%;
+   margin-right: 0.6em;
+
+}
+
+td{
+   vertical-align: middle;
+ }
+
+.editar{
+    font-size: 17px; /* 15 */
+}
+
+table {
+    margin-top: 2em;
+}
+
+@media (max-width: 767px) {
+    .logomenu{
+        width: 15%;
+        height: 15%;
+    }
+    th{
+        font-size: 13px; /* 10 */
+    }
+    .op {
+        height: 90px; /* 50 - 60 */
+        font-size: 10px;
+        font-weight: bold;
+    }
+    #foot{
+        font-size: 11px;
+    }
+    .editar{
+        font-size: 13px;
+    }
+}
